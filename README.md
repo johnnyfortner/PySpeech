@@ -1,21 +1,23 @@
 <div align="center">
-  <h1>PySpeech</h1>
+  <h1>
+    PySpeech
+  </h1>
   <p>Offline text to speech in python</p>
 
-🗣️ Text-to-Speech Voice App
-
+## 🗣️ Text-to-Speech Voice App
+</div>
 A simple and efficient GUI-based text-to-speech (TTS) utility using Microsoft's Edge TTS, `pygame` for audio playback, and `ttkbootstrap` for a modern tkinter look.
 
 ---
-</div>
- 📦 Installation
 
-### ✅ Install Globally (System-Wide)
+ ## 📦 Installation
+Clone repo or download source code
+#### ✅ Install Globally (System-Wide)
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-### 🧪 Isolated Install via Virtual Environment
+#### 🧪 Isolated Install via Virtual Environment
 ```bash
 python -m venv venv
 venv\Scripts\activate
@@ -28,7 +30,7 @@ python -m pip install -r requirements.txt
 
 ## 🚀 Usage
 
-### Run via Python
+#### Run via Python
 ```bash
 python app.py
 ```
@@ -38,7 +40,6 @@ Or double-click `app.py` if file associations are properly configured on Windows
 ---
 
 ## 🎯 Functionality
-
 - ✅ Enter text in a modern, styled tkinter GUI
 - ✅ Converts entered text to speech using Microsoft Edge TTS (multilingual)
 - ✅ Saves audio to a temporary `.mp3` file
